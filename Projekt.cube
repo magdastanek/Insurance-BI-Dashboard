@@ -1,0 +1,862 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="b687dcea-9973-4173-8d96-80e88b8f50c9" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Projekt</ID>
+  <Name>Projekt</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="26" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4980" scrolltop="-1152" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="87" x="26961" y="18865" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01ee0000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Coverage" left="7014" top="2129" logicalid="10" controlid="1" masterid="0" hint1="0" hint2="0" width="3281" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000d10c000057070000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_Coverage" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Fact_Insurance" left="3746" top="5617" logicalid="11" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Fact_Insurance" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Medical" left="5403" top="11103" logicalid="12" controlid="3" masterid="0" hint1="0" hint2="0" width="4128" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e000020100000a50a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_Medical" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Profile" left="11063" top="6829" logicalid="13" controlid="4" masterid="0" hint1="0" hint2="0" width="3000" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000fe080000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_Profile" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Patient" left="-2169" top="8477" logicalid="14" controlid="5" masterid="0" hint1="0" hint2="0" width="3000" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_Patient" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="6046" top="3509" logicalid="15" controlid="6" masterid="0" hint1="0" hint2="0" width="1908" height="2408" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__Fact_Insu__Cover__35BCFE0A]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="2" sourceattachpoint="1" destattachpoint="8" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7554" y="4008" />
+              <point x="7554" y="4812" />
+              <point x="6346" y="4812" />
+              <point x="6346" y="5617" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="6446" top="8131" logicalid="16" controlid="7" masterid="0" hint1="0" hint2="0" width="4917" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__Fact_Insu__Profi__33D4B598]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="2" sourceattachpoint="14" destattachpoint="21" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="11063" y="8530" />
+              <point x="10511" y="8530" />
+              <point x="10511" y="8503" />
+              <point x="6746" y="8503" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="5418" top="8889" logicalid="17" controlid="8" masterid="0" hint1="0" hint2="0" width="799" height="2714" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__Fact_Insu__Medic__34C8D9D1]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="2" sourceattachpoint="0" destattachpoint="7" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="5817" y="11103" />
+              <point x="5817" y="9751" />
+              <point x="5796" y="9751" />
+              <point x="5796" y="9189" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="531" top="5453" logicalid="18" controlid="9" masterid="0" hint1="0" hint2="0" width="3515" height="3560" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__Fact_Insu__Patie__32E0915F]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="2" sourceattachpoint="11" destattachpoint="10" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="831" y="8613" />
+              <point x="3133" y="8613" />
+              <point x="3133" y="5753" />
+              <point x="3746" y="5753" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="decision_tree_prediction" left="-1490" top="243" logicalid="20" controlid="11" masterid="0" hint1="0" hint2="0" width="3000" height="2341" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000025090000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_decision_tree_prediction" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="810" top="2284" logicalid="21" controlid="12" masterid="0" hint1="0" hint2="0" width="3236" height="3869" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[decision_tree_prediction-Fact_Insurance]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="11" sourceattachpoint="10" destattachpoint="9" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="3746" y="5753" />
+              <point x="1110" y="5753" />
+              <point x="1110" y="2584" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="clusters_prediction" left="2098" top="123" logicalid="22" controlid="13" masterid="0" hint1="0" hint2="0" width="3000" height="2341" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000025090000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_clusters_prediction" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="3747" top="2164" logicalid="23" controlid="14" masterid="0" hint1="0" hint2="0" width="799" height="3953" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[clusters_prediction-Fact_Insurance]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="13" sourceattachpoint="0" destattachpoint="7" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="4146" y="5617" />
+              <point x="4146" y="4080" />
+              <point x="4148" y="4080" />
+              <point x="4148" y="2464" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="neural_network_prediction" left="10674" top="3071" logicalid="24" controlid="15" masterid="0" hint1="0" hint2="0" width="3000" height="2341" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000025090000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_neural_network_prediction" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="6446" top="4491" logicalid="25" controlid="16" masterid="0" hint1="0" hint2="0" width="4528" height="2762" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[neural_network_prediction-Fact_Insurance]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="15" sourceattachpoint="15" destattachpoint="14" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="6746" y="6853" />
+              <point x="9349" y="6853" />
+              <point x="9349" y="4791" />
+              <point x="10674" y="4791" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-4980</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-1152</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-2169</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>123</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>87</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="9b8f3d54-eb25-4655-8755-89be0ed8431b">
+      <ID>Dim Profile</ID>
+      <Name>Dim Profile</Name>
+      <DimensionID>Dim Profile</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="78b88b57-63b1-4644-a59e-b8de3ee55cc7">
+          <AttributeID>Profile Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="378e9d03-2d3f-4050-8e1f-750786b05009">
+          <AttributeID>Region</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3872c342-2c4f-4cc6-8489-2d904d6e1632">
+          <AttributeID>Occupation</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="8b0f973e-53d2-4acd-9f0a-efeeccfa7665">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="ac12d4c6-1875-4870-8c5b-1fc6bf947776">
+      <ID>Dim Medical</ID>
+      <Name>Dim Medical</Name>
+      <DimensionID>Dim Medical</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="b2f63a6b-86d7-4d69-ae3f-064e690994e0">
+          <AttributeID>Medical Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="13aea7d1-03b2-4971-a2b6-92c885af6edf">
+          <AttributeID>Exercise Frequency</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="baf56748-646f-4e83-b33e-2b6922697466">
+          <AttributeID>Medical History</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="d4d8838a-b5ea-4283-9d05-377c35064f2f">
+      <ID>Dim Coverage</ID>
+      <Name>Dim Coverage</Name>
+      <DimensionID>Dim Coverage</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="8644fcd8-3228-4873-ae44-01e86a4919da">
+          <AttributeID>Coverage Key</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="4c2ffd9b-3cb5-4c90-ae58-fcb44dc761be">
+      <ID>Dim Patient</ID>
+      <Name>Dim Patient</Name>
+      <DimensionID>Dim Patient</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="f76d2057-62ab-4628-95c8-a0d22e66e21d">
+          <AttributeID>Patient Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5a05f4ec-dbef-4a2c-9c07-298dadc8b743">
+          <AttributeID>Smoker</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="af5b9dc0-b322-45a9-8615-932069da26e7">
+          <AttributeID>Age</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="aed0c23e-54ad-4261-b593-e86eb553e100">
+          <AttributeID>Gender</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="7e7de66a-1366-468f-add4-cde41cd25460">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="f05ff90d-e549-4b31-a70a-effbb0896b99">
+      <ID>Fact Insurance</ID>
+      <Name>Fact Insurance</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="7fd63bc5-afcc-40af-b38c-44a0ec47c73f">
+          <ID>Charges</ID>
+          <Name>Charges</Name>
+          <Source dwd:design-time-name="5e31cf80-9589-413d-bf5a-acf9a0b5853c">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="fda663a6-6043-4466-bc6f-e3dc7a4f1dff">
+              <TableID>dbo_Fact_Insurance</TableID>
+              <ColumnID>Charges</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="d82027ae-9f9e-4840-880f-f4f5acebc65c">
+          <ID>Fact Insurance Count</ID>
+          <Name>Fact Insurance Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="ac79cd35-95ec-4434-a97e-d9af732e9762">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="fbfadad4-bf8a-412e-9950-ce32ab78f819">
+              <TableID>dbo_Fact_Insurance</TableID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="f4012602-8454-4191-9fa2-a6fea7d50c99">
+          <ID>Minimum Charges</ID>
+          <Name>Minimum Charges</Name>
+          <AggregateFunction>Min</AggregateFunction>
+          <Source dwd:design-time-name="ec2d615a-75fe-47fa-8936-ccfcf7b6df87">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="e0e592f4-fcb5-4423-9647-11bbba0b96b2">
+              <TableID>dbo_Fact_Insurance</TableID>
+              <ColumnID>Charges</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="37afa625-81a8-4af1-b462-afb7e7f57d11">
+          <ID>Maximum Charges</ID>
+          <Name>Maximum Charges</Name>
+          <AggregateFunction>Max</AggregateFunction>
+          <Source dwd:design-time-name="ddeae993-4a75-4f65-8ae1-208e666730b9">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="11291a89-f480-44ec-93ed-3de72a86ccc1">
+              <TableID>dbo_Fact_Insurance</TableID>
+              <ColumnID>Charges</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="175eb9e2-a1ff-4dc9-9abc-c4004e23cb6a">
+          <CubeDimensionID>Dim Profile</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="c88eae4d-b198-46bd-a0f0-130abeb57338">
+              <AttributeID>Profile Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="44ff6858-98c3-4046-a50b-e85aad94ec47">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="640a051c-21c0-4773-a95e-726b0e6eaf17">
+                    <TableID>dbo_Fact_Insurance</TableID>
+                    <ColumnID>ProfileKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="d67e16d2-b23f-4d25-ac08-b36d4a265325">
+          <CubeDimensionID>Dim Medical</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="f4406454-64b2-4f71-9f89-cd634f4de5b8">
+              <AttributeID>Medical Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="602db59a-0e5c-402d-a751-522cea2b68d0">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a729e8d0-ed6d-4292-8f69-2b1764babe3c">
+                    <TableID>dbo_Fact_Insurance</TableID>
+                    <ColumnID>MedicalKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="f73b0f43-11ec-440d-aaa5-fc18365d5698">
+          <CubeDimensionID>Dim Coverage</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="c06062b4-c57f-4425-847b-3f7ec0342633">
+              <AttributeID>Coverage Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="eeb3d87c-c289-40fc-b2dd-9966a5d07620">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="067e3433-7ba6-4c3e-b5ef-480728a2f4a3">
+                    <TableID>dbo_Fact_Insurance</TableID>
+                    <ColumnID>CoverageKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="09bbe052-b307-47ca-bed3-815fb86250b5">
+          <CubeDimensionID>Dim Patient</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="440fc3fe-569e-4516-9343-a0cdd38cd579">
+              <AttributeID>Patient Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="702384d5-d054-431c-b66e-69de605ebc12">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="fbd266b2-2423-455b-82f2-442c0616b8cf">
+                    <TableID>dbo_Fact_Insurance</TableID>
+                    <ColumnID>PatientKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="9189bc23-cdd3-4129-90a7-51ea9c36703e">
+      <ID>Dim Patient</ID>
+      <Name>Dim Patient</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="fdfdf02b-bffd-4e39-9e92-312a23d4c959">
+          <ID>Age</ID>
+          <Name>Sum Age</Name>
+          <Source dwd:design-time-name="9ac04043-28e8-4c2b-9606-92d4141f6a81">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="1fa61ae0-7379-48c7-81da-a49aa3f9769c">
+              <TableID>dbo_Dim_Patient</TableID>
+              <ColumnID>Age</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="af8667fe-86c6-4c92-bb04-a560f9deac80">
+          <ID>BMI</ID>
+          <Name>Sum BMI</Name>
+          <Source dwd:design-time-name="e05c499c-1508-404b-8560-cf5e2ec4572e">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="983aa5a9-9012-4ca9-854c-a60c6d398814">
+              <TableID>dbo_Dim_Patient</TableID>
+              <ColumnID>BMI</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="32b92dbd-f279-4deb-8ce0-bd31091678b3">
+          <CubeDimensionID>Dim Patient</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="7cbb96f1-feaa-43dd-9454-1d5730b86dcb">
+              <AttributeID>Patient Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="074683f5-1418-4e0c-9f7c-4cdcbc248c1b">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c1402b1e-7c9c-4bdc-bca8-23a2e16f25e0">
+                    <TableID>dbo_Dim_Patient</TableID>
+                    <ColumnID>PatientKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="a65e439a-9713-4dc9-929c-b493cd29514d">
+      <ID>Decision Tree Prediction</ID>
+      <Name>Decision Tree Prediction</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="f180987c-acb2-4645-8a08-6fbeb25ab458">
+          <ID>Charges - Decision Tree Prediction</ID>
+          <Name>Charges - Decision Tree Prediction</Name>
+          <Source dwd:design-time-name="b9509961-c588-4224-bc75-491d0ef2d3ac">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="61eefbfa-695e-4c9f-804b-cd3de24d0320">
+              <TableID>dbo_decision_tree_prediction</TableID>
+              <ColumnID>Charges</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="ff1f767d-9780-4079-80e3-e1bfcc8be9da">
+          <ID>Age 1</ID>
+          <Name>Age</Name>
+          <Source dwd:design-time-name="f69e17a3-335b-4c66-860a-334e5128941a">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="de38a0ba-43df-4896-a052-4744a8c8a896">
+              <TableID>dbo_decision_tree_prediction</TableID>
+              <ColumnID>Age</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="fe4425fb-a744-488b-ba32-18f7b5eff533">
+          <ID>Decision Tree Prediction Count</ID>
+          <Name>Decision Tree Prediction Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="db4b8b9d-f70a-4ec1-bf13-6caa8a55848d">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="3bb5e69e-56ce-4806-9ce9-06dce4764569">
+              <TableID>dbo_decision_tree_prediction</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="d6f0d95b-c1f3-4b15-9789-7409327b4407">
+          <CubeDimensionID>Dim Patient</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="c8524779-9b0d-4b7e-b897-c31a1f6e5b90">
+              <AttributeID>Patient Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="d5a7e904-2c6f-4306-aa19-0fefe7db40ca">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="78896e5d-4027-4ed7-817e-8fe3dd971de2">
+                    <TableID>dbo_decision_tree_prediction</TableID>
+                    <ColumnID>FactKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="0ce6ad16-8d19-4e02-acc8-9b75794d4946">
+      <ID>Clusters Prediction</ID>
+      <Name>Clusters Prediction</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="41048757-76bc-4869-8ad6-fef0648d4ad5">
+          <ID>Charges - Clusters Prediction</ID>
+          <Name>Charges - Clusters Prediction</Name>
+          <Source dwd:design-time-name="669e3d24-53ff-4578-a969-bc31a272d03e">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="817ec42c-95a3-4fa7-b0b2-03f9463d18b0">
+              <TableID>dbo_clusters_prediction</TableID>
+              <ColumnID>Charges</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="5ff1480b-5329-41cb-9204-b4f187a44768">
+          <ID>Age - Clusters Prediction</ID>
+          <Name>Age - Clusters Prediction</Name>
+          <Source dwd:design-time-name="3089930c-4a4c-4746-bd10-4575c19bec6c">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d0c4d36c-3908-494e-b48a-982a1adbbe67">
+              <TableID>dbo_clusters_prediction</TableID>
+              <ColumnID>Age</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="637bce0c-bd29-4298-9b07-6679336f0dfc">
+          <ID>Clusters Prediction Count</ID>
+          <Name>Clusters Prediction Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="d9f3e26e-b091-41d7-9c5b-0fc8ae890787">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="c320847c-d2dd-483b-835d-68074b695643">
+              <TableID>dbo_clusters_prediction</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="ab3498bb-cbcd-4801-aad7-64640e85f468">
+          <CubeDimensionID>Dim Patient</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="4521202a-5c1f-4d96-ac8c-163fc00927aa">
+              <AttributeID>Patient Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="60603d62-2d9f-4f10-846c-f0b5f0483a79">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="9d9ba815-c080-49c5-9949-f3792839e617">
+                    <TableID>dbo_clusters_prediction</TableID>
+                    <ColumnID>FactKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="4ede94cb-626c-4089-8d2b-ee006f947609">
+      <ID>Neural Network Prediction</ID>
+      <Name>Neural Network Prediction</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="549b7af3-45dd-4ba2-b846-4906fccad171">
+          <ID>Charges - Neural Network Prediction</ID>
+          <Name>Charges - Neural Network Prediction</Name>
+          <Source dwd:design-time-name="816663b8-e46f-46f1-b1d9-15419320d9c3">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="edf98b0f-d3cd-47f5-ac06-e3e878c17949">
+              <TableID>dbo_neural_network_prediction</TableID>
+              <ColumnID>Charges</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="a32d03d6-789b-472e-9ba3-6e724ffc7a22">
+          <ID>Age - Neural Network Prediction</ID>
+          <Name>Age - Neural Network Prediction</Name>
+          <Source dwd:design-time-name="f48dbe32-b92d-4078-a40e-7d9de9ba3e8b">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="bc46e7a6-852a-4419-aadc-01571907235e">
+              <TableID>dbo_neural_network_prediction</TableID>
+              <ColumnID>Age</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="0cb93e27-c605-4300-93ef-689ba56650d5">
+          <ID>Neural Network Prediction Count</ID>
+          <Name>Neural Network Prediction Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="732476e1-8608-4913-8ccc-59de79088177">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="dd44ef6f-fe15-4ba5-b45b-5948fd1cc9d4">
+              <TableID>dbo_neural_network_prediction</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="1ddca687-e808-43e3-9092-0f23bc087df8">
+          <CubeDimensionID>Dim Patient</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="5fc3a033-9cad-476e-b620-425f92516dbd">
+              <AttributeID>Patient Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="b0def2da-281b-43f4-83cf-4b03d945b313">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="0c1554d7-e445-4690-90df-c28dc99d9647">
+                    <TableID>dbo_neural_network_prediction</TableID>
+                    <ColumnID>FactKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="21578906-768b-450d-a453-5906e1ba4bdc">
+    <DataSourceViewID>Projekt</DataSourceViewID>
+  </Source>
+  <MdxScripts>
+    <MdxScript dwd:design-time-name="5607ac0d-14af-4e2d-92eb-2ad324a47b2e">
+      <ID>MdxScript</ID>
+      <Name>MdxScript</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Commands>
+        <Command>
+          <Text>/*
+The CALCULATE command controls the aggregation of leaf cells in the cube.
+If the CALCULATE command is deleted or modified, the data within the cube is affected.
+You should edit this command only if you manually specify how the cube is aggregated.
+*/
+CALCULATE; 
+CREATE MEMBER CURRENTCUBE.[Measures].[avg_Drzewo]
+ AS [Measures].[Charges - Decision Tree Prediction] / [Measures].[Decision Tree Prediction Count], 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Decision Tree Prediction'  ; 
+CREATE MEMBER CURRENTCUBE.[Measures].[avg_cluster]
+ AS [Measures].[Charges - Clusters Prediction] / [Measures].[Clusters Prediction Count], 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Clusters Prediction'  ; 
+CREATE MEMBER CURRENTCUBE.[Measures].[avg_siec]
+ AS [Measures].[Charges - Neural Network Prediction] / [Measures].[Neural Network Prediction Count], 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Neural Network Prediction'  ; 
+CREATE MEMBER CURRENTCUBE.[Measures].[avg_prawdziwe]
+ AS [Measures].[Charges] / [Measures].[Fact Insurance Count], 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Fact Insurance'  ;  
+CREATE MEMBER CURRENTCUBE.[Measures].[Avg Charges]
+ AS [Measures].[Charges] / [Measures].[Fact Insurance Count], 
+FORMAT_STRING = "Currency", 
+VISIBLE = 1;  
+CREATE MEMBER CURRENTCUBE.[Measures].[Avg Age]
+ AS [Measures].[Sum Age] / [Measures].[Fact Insurance Count], 
+FORMAT_STRING = "Standard", 
+VISIBLE = 1;  
+CREATE MEMBER CURRENTCUBE.[Measures].[Avg BMI]
+ AS [Measures].[Sum BMI] / [Measures].[Fact Insurance Count], 
+FORMAT_STRING = "Standard", 
+VISIBLE = 1; </Text>
+        </Command>
+      </Commands>
+    </MdxScript>
+  </MdxScripts>
+  <Kpis>
+    <Kpi dwd:design-time-name="83bce41a-64de-47b7-ac45-7e230030203f">
+      <ID>KPI</ID>
+      <Name>KPI_Sredni_Koszt</Name>
+      <AssociatedMeasureGroupID>Fact Insurance</AssociatedMeasureGroupID>
+      <Value>[Measures].[Avg Charges]</Value>
+      <Goal>15000</Goal>
+      <Status>CASE
+  WHEN KpiValue("KPI_Sredni_Koszt") &lt; KpiGoal("KPI_Sredni_Koszt") THEN 1
+  WHEN KpiValue("KPI_Sredni_Koszt") &gt; KpiGoal("KPI_Sredni_Koszt") THEN -1
+  ELSE 0
+END</Status>
+      <TrendGraphic>Standard Arrow</TrendGraphic>
+      <StatusGraphic>Gauge - Ascending</StatusGraphic>
+    </Kpi>
+    <Kpi dwd:design-time-name="874cb40c-6870-4258-b6db-720404526931">
+      <ID>KPI 1</ID>
+      <Name>KPI_Srednie_BMI</Name>
+      <AssociatedMeasureGroupID>Fact Insurance</AssociatedMeasureGroupID>
+      <Value>[Measures].[Avg BMI]</Value>
+      <Goal>26</Goal>
+      <Status>CASE
+  WHEN KpiValue("KPI_Srednie_BMI") &lt;= KpiGoal("KPI_Srednie_BMI") THEN 1
+  WHEN KpiValue("KPI_Srednie_BMI") &gt; KpiGoal("KPI_Srednie_BMI") THEN -1
+  ELSE 0
+END</Status>
+      <TrendGraphic>Standard Arrow</TrendGraphic>
+      <StatusGraphic>Gauge - Ascending</StatusGraphic>
+    </Kpi>
+    <Kpi dwd:design-time-name="52acc7a2-236a-43c8-9ee2-0ced5a4b7996">
+      <ID>KPI 2</ID>
+      <Name>KPI_Liczba_Pacjentow</Name>
+      <AssociatedMeasureGroupID>Fact Insurance</AssociatedMeasureGroupID>
+      <Value>[Measures].[Fact Insurance Count]</Value>
+      <Goal>1300</Goal>
+      <Status>CASE
+  WHEN KpiValue("KPI_Liczba_Pacjentow") &gt;= KpiGoal("KPI_Liczba_Pacjentow") THEN 1
+  WHEN KpiValue("KPI_Liczba_Pacjentow") &lt; KpiGoal("KPI_Liczba_Pacjentow") THEN -1
+  ELSE 0
+END</Status>
+      <TrendGraphic>Standard Arrow</TrendGraphic>
+      <StatusGraphic>Thermometer</StatusGraphic>
+    </Kpi>
+    <Kpi dwd:design-time-name="74fb1110-cab6-4ce3-8682-a72a9741def5">
+      <ID>KPI 3</ID>
+      <Name>KPI_Sredni_Wiek</Name>
+      <AssociatedMeasureGroupID>Fact Insurance</AssociatedMeasureGroupID>
+      <Value>[Measures].[Avg Age]</Value>
+      <Goal>40</Goal>
+      <Status>CASE
+  WHEN KpiValue("KPI_Sredni_Wiek") &lt;= KpiGoal("KPI_Sredni_Wiek") THEN 1
+  WHEN KpiValue("KPI_Sredni_Wiek") &gt; KpiGoal("KPI_Sredni_Wiek") THEN -1
+  ELSE 0
+END</Status>
+      <TrendGraphic>Standard Arrow</TrendGraphic>
+      <StatusGraphic>Traffic Light</StatusGraphic>
+    </Kpi>
+  </Kpis>
+</Cube>
